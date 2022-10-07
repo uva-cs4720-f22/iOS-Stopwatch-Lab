@@ -33,9 +33,9 @@ CHECK: At this point, you should be able to run the app and the stopwatch functi
 
 1. Right click on the Stopwatch folder
 2. Choose New File... -> Cocoa Touch Class
-3. Give it the name AddTimeViewController
-4. Make it a subclass of UIViewController
-5. Once the file is created, go to the Storyboard and add this AddTimeViewController by dragging in a new view controller from the 'Object Library' (lower right panel, third icon which is round).  If you are using Xcode 10, you can find the Object Library by clicking View -> Libraries or hit Shift+Cmd+L.
+3. Give it the name `AddTimeViewController`
+4. Make it a subclass of `UIViewController`
+5. Once the file is created, go to the Storyboard and add this `AddTimeViewController` by dragging in a new view controller from the 'Object Library' (the + in the upper right with the tooltip "Library").
 6. Then select this new view controller (by clicking the little yellow circle on the top) and change its class to AddTimeViewController in the identity inspector (top right panel, id card icon).
 
 ## Connecting the Two Scenes Together (Checkpoint 3)
