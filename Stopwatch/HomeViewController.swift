@@ -53,7 +53,7 @@ class HomeViewController: UIViewController {
     // No edits beyond this point!
     
     // This function is called by the start stopwatch function - you should not edit it.
-    func updateElapsedTimeLabel(_ timer: Timer) {
+    @objc func updateElapsedTimeLabel(_ timer: Timer) {
         print("Updating...")
         if stopwatch.isRunning {
             let minutes = Int(stopwatch.elapsedTime / 60)
