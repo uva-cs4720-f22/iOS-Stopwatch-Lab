@@ -1,8 +1,10 @@
 # iOS Stopwatch In-Class Lab
 
-## Basic Instructions
+## Getting Started
 
-Clone this repository and open the project in Xcode.  Once you have done that, follow the instructions in the code to fill out the functionality of this stopwatch app.
+1. Fork this repository to one of your own so that you can more easily reference it later using the `Fork` button in the upper right part of the screen.
+2. Clone your forked repository and open the project in Xcode.
+3. Once you have done that, follow the instructions in the code to fill out the functionality of this stopwatch app.
 
 ## Edit the Bundle Identifier
 
@@ -53,10 +55,6 @@ Finally, it's up to you to build out the 'AddTimeViewController' to exhibit the 
 3. It should have a 'Save' button somewhere on the screen, which, when pressed, presents an alert saying that you just 'fake' saved the time. In the alert message, you should mention the value in the label.  See the code at the bottom of this README.
 4. To pass the time from the 'HomeViewController' to the 'AddTimeViewController', you will need to edit the code found in the 'prepare()' function in 'HomeViewController'.  First, click on the segue in the interface builder (the arrow thing between the 'HomeViewController' and the 'AddTimeViewController'.  In the Attributes Inspector, give it the Identifier 'AddTime'.
 5. In 'HomeViewController', find the 'prepare()' method.  Look at the example provided in the 'LectureTest' example code for how to write this method.  You will also need to add code to the 'viewDidLoad()' method in 'AddTimeViewController' based on the 'NewMessageViewController' from the 'LectureTest' example as well.  The code you write in 'prepare()' will "pre-set" the values in the destination ViewController before it launches.  Then, in the 'AddTimeViewController', you can grab the data and set the label's value.
-
-## Submit
-
-When the lab is over, zip up your project directory and upload whatever you have finished to the assignment submission in Collab.  If you worked with someone, both of you should up load the same zip file and just mention the other person (and computing ID) in the submission comments.
 
 ## Code Snippits
 
