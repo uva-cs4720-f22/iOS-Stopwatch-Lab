@@ -22,9 +22,9 @@ You may have issues signing the the project or problems with the provisioning pr
 ## Get the stopwatch working (Checkpoint 1)
 
 1. Hook up the IBOutlet for the 'elapsedTimeLabel' of the 'HomeViewController' 
-	- one way to do this is by dragging from the circle beside the elapsedTimeLabel on line 24 onto the UI element in the storyboard using the Assistant Editor viewing mode
+	- One way to do this is by dragging from the circle beside the elapsedTimeLabel on line 24 onto the UI element in the storyboard using the Assistant Editor viewing mode
 2. Hook up the IBActions for starting and stopping the timer to the 'Start' and 'Stop' buttons.
-	- like above
+	- Same as above
 3. You should be able to get the stopwatch functionality working in the 'HomeViewController' by adding the provided code at the bottom of this page to the appropriate functions in 'HomeViewController'
 
 CHECK: At this point, you should be able to run the app and the stopwatch functionality should work. (The label updates as time passes and start/stop buttons work as expected.)
